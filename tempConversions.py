@@ -43,7 +43,7 @@ def temp_conversions():
               "3. Kelvin to Celcius\n4. Kelvin to Fahrenheit\n5. Celcius to Kelvin\n" + \
               "6. Fahrenheit to Kelvin\n or 'exit' to exit")
 
-        def ConversionFCK():
+        def conversion_fck():
             print(Fore.WHITE, end="")
             number = input()
             while number != "exit":
@@ -110,12 +110,12 @@ def temp_conversions():
 
                 else:
                     print(Fore.RED + "please type a number 1-6 or exit to exit")
-                    ConversionFCK()
+                    conversion_fck()
 
-        ConversionFCK()
+        conversion_fck()
 
     run()
 
 
 if __name__ == "__main__":
-    print(Fore.RED, "Please run this in the home file")
+    print(Fore.RED, "ran in temp conv file")
