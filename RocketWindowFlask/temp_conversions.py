@@ -130,4 +130,4 @@ def main():
             main()
 
 if __name__ == "__main__":
-    print('please run in main file')
+    main()
