@@ -1,16 +1,22 @@
-# This is a sample Python script.
-print('sample')
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import temp_conversions as tc
+
+num = 99
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
+def main():
+    global num
+    while num != 0:
+        num = int(input("Enter a number: "))
+        if num == 1:
+            print("hi pycharm")
+        elif num == 2:
+            print("jdsaklhfjkadkf")
+        elif num == 3:
+            if __name__ == '__main__':
+                tc.main()
+        elif num == 0:
+            print("exiting...")
+            break
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+main()
