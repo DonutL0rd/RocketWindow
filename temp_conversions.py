@@ -128,5 +128,6 @@ def main():
         except ValueError:
             print(Fore.RED, "\nInvalid choice. Please enter a number 1-6 or 0 to exit")
 
+
 if __name__ == "__main__":
     print("run in main file")
